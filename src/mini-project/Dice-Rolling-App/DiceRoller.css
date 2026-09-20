@@ -1,0 +1,14 @@
+.dice{
+    width: 130px;
+    height: 130px;
+    background-color: slateblue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.dice span{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    justify-self: center ;
+}

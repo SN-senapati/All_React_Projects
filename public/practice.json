@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "HP Laptop",
+        "price": 45000
+    },
+    {
+        "id": 2,
+        "name": "Dell Laptop",
+        "price": 55000
+    },
+    {
+        "id": 3,
+        "name": "Wireless Mouse",
+        "price": 500
+    },
+    {
+        "id": 4,
+        "name": "Laptop Stand",
+        "price": 800
+    }
+]

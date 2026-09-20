@@ -1,0 +1,25 @@
+{
+  "category": [
+    {
+      "id": "1",
+      "category_name": "electronics"
+    },
+    {
+      "id": "2",
+      "category_name": "footwear"
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "title": "Samsung Tv",
+      "price": 23000
+    },
+    {
+      "id": "2",
+      "title": "Mobile",
+      "price": 12000
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

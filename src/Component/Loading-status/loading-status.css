@@ -1,0 +1,13 @@
+@keyframes loadEffect{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+img{
+    animation-name: loadEffect;
+    animation-duration: 5s;
+}

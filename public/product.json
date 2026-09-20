@@ -1,0 +1,17 @@
+{
+    "title" : "Apple iphone 17pro",
+    "img" : "/images/iphone-17pro.png",
+    "price" : 180000,
+    "starRating" : 4.8,
+    "rate" : {
+        "ratings" : 1004,
+        "reviews" : 80
+    },
+    "offers" : [
+        "Bank Offer ₹1000 Off On Selected Banks Credit Card Non EMI Transactions",
+        "Bank Offer ₹1000 Off On Selected Banks Credit Card Non EMI Transactions",
+        "Bank Offer 5% cashback on Axis Bank Flipkart Debit Card up to ₹750",
+        "Bank Offer 5% cashback on Flipkart SBI Credit Card upto ₹4,000 per calendar quarter"
+    ]
+}
+        

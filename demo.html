@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* input:optional+span{
+            display: none;
+        }
+        input:required+span{
+            color: red;
+        }
+
+        input:valid~div{
+            display: none;
+        }
+        input:valid+span{
+            display: none;
+        }
+        input:invalid~div{
+            display: block;
+            color: red;
+        } */
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <form novalidate>
+        <dl>
+            <dt>UserName</dt>
+            <dd>
+                <input type="text" name="username" id="uname">
+                <!-- <span>*</span>
+                <div>username required</div> -->
+                <div id="msg"></div>
+            </dd>
+            <dt>Mobile</dt>
+            <dd>
+                <input type="text" name="mobile" pattern="\+91\d{10}" id="mobile">
+                <!-- <span>*</span>
+                <div>Invalid Mobile +91 & 10 digits required</div> -->
+                <div id="msg2"></div>
+            </dd>
+        </dl>
+        <button type="submit" onclick="submitClick(event)">submit</button>
+    </form>
+    <script>
+        function submitClick(event){
+            event.preventDefault();
+
+            let username = document.getElementById("uname").value;
+            let msg = document.getElementById("msg")
+            isValidate = true;
+            msg.innerHTML = ""
+            if(username.length === 0){
+                msg.innerHTML = "Username required"
+                msg.style.color = "red"
+                isValidate = false;
+            }else{
+                if(username.length < 4){
+                    msg.innerHTML = "Name too short"
+                    msg.style.color = "red"
+                    isValidate = false
+                }else{
+                    msg.textContent = ""
+                }
+            }
+
+            let mobile = document.getElementById("mobile").value;
+            let msg2 = document.getElementById("msg2")
+            let pattern = /\+91\d{10}/
+            if(mobile.length === 0){
+                msg2.innerHTML = "Mobile required.."
+                msg2.style.color = "red"
+                isValidate = false
+            }else{
+                if(mobile.match(pattern)){
+                    msg2.innerHTML = ""
+                }else{
+                    msg2.innerHTML = "Invalid Mobile"
+                    msg2.style.color = "red"
+                    isValidate = false;
+                }
+            }
+
+            if(isValidate){
+                document.querySelector("form").submit()
+            }
+
+            
+        }
+    </script>
+</body>
+</html>

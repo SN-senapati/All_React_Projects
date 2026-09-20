@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Java",
+      "id": "mwICdFbrHY0"
+    },
+    {
+      "category_id": 2,
+      "category_name": "React",
+      "id": "W74BxpohhY4"
+    },
+    {
+      "category_id": 3,
+      "category_name": "Aws",
+      "id": "9xlTEffeGC0"
+    }
+  ],
+  "videos": [
+    {
+      "video_id": 1,
+      "id" : 1,
+      "title": "React_js_tutorial",
+      "description": "",
+      "url": "https://www.youtube.com/embed/p6cXj0C4d9A",
+      "views": 2300,
+      "likes": 1000,
+      "dislikes": 2,
+      "comments": 250,
+      "category_id": 2
+    },
+    {
+      "title": "java",
+      "description": "java ljsdlfj",
+      "url": "https://www.youtube.com/embed/P9yF2qU8xLI?si=ItByol_y3PZmB_Vf",
+      "views": 98787878979,
+      "likes": 8768768789,
+      "dislikes": 8768687,
+      "categories": "Java",
+      "id": "HQaDmsGBmyM"
+    },
+    {
+      "title": "",
+      "description": "",
+      "url": "",
+      "views": "",
+      "likes": "",
+      "dislikes": "",
+      "id": "2188SwKO8G0"
+    }
+  ],
+  "admin": [
+    {
+      "admin_id": "john_admin",
+      "password": "john@12",
+      "id": "VkGdVWJVE0c"
+    }
+  ],
+  "user": [
+    {
+      "user_id": "",
+      "password": "john@12",
+      "user_name": "",
+      "mobile": "",
+      "id": "gPVtJsfOX8k"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
