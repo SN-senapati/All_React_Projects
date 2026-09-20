@@ -9,7 +9,6 @@ export function DiceRoller(){
         setNumber(randomNumber)
         setNumber2(randomNumber2)
     }
-    console.log("hello")
     const position = {
         1 : [[2,2]],
         2 : [[1,1], [3,3]],
